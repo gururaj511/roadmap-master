@@ -1,0 +1,5 @@
+<div class="jira-infor-container">
+  <div>{{jiraPoint.issueType}}: <b>{{jiraPoint?.issueKey}}</b></div>
+  <div>{{jiraPoint.x}} - {{jiraPoint.x2}}</div>
+  <div *ngIf="jiraPoint?.description">{{jiraPoint.description}}</div>
+</div>
